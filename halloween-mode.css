@@ -1,0 +1,15 @@
+.ContributionCalendar-day[data-level="1"] {
+    fill: var(--color-calendar-halloween-graph-day-L1-bg) !important;
+}
+
+.ContributionCalendar-day[data-level="2"] {
+    fill: var(--color-calendar-halloween-graph-day-L2-bg) !important;
+}
+
+.ContributionCalendar-day[data-level="3"] {
+    fill: var(--color-calendar-halloween-graph-day-L3-bg) !important;
+}
+
+.ContributionCalendar-day[data-level="4"] {
+    fill: var(--color-calendar-halloween-graph-day-L4-bg) !important;
+}

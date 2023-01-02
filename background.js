@@ -4,8 +4,8 @@ chrome.runtime.onInstalled.addListener(() => {
   });
 });
 
-const extensions = 'https://developer.chrome.com/docs/extensions'
-const webstore = 'https://developer.chrome.com/docs/webstore'
+const extensions = 'https://github.com/'
+const webstore = 'https://github.com/'
 
 // When the user clicks on the extension action
 chrome.action.onClicked.addListener(async (tab) => {
@@ -25,14 +25,14 @@ chrome.action.onClicked.addListener(async (tab) => {
         console.log("ON")
       // Insert the CSS file when the user turns the extension on
       await chrome.scripting.insertCSS({
-        files: ["focus-mode.css"],
+        files: ["halloween-mode.css"],
         target: { tabId: tab.id },
       });
     } else if (nextState === "OFF") {
         console.log("OFF")
       // Remove the CSS file when the user turns the extension off
       await chrome.scripting.removeCSS({
-        files: ["focus-mode.css"],
+        files: ["halloween-mode.css"],
         target: { tabId: tab.id },
       });
     }

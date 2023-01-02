@@ -12,13 +12,5 @@
     "service_worker": "background.js"
   },
   "permissions": ["tabs", "activeTab", "scripting", "storage"],
-  "host_permissions": ["*://*/*" ],
-  "commands": {
-    "_execute_action": {
-      "suggested_key": {
-        "default": "Ctrl+B",
-        "mac": "Command+U"
-      }
-    }
-  }
+  "host_permissions": ["*://*/*" ]
 }
