@@ -4,7 +4,10 @@
   "description": "Change the color of the contributions graph on Github",
   "manifest_version": 3,
   "author": "CLMB",
-    "action": {},
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Github Color Contrib"
+    },
   "icons": {
     "128": "logo.png"
   },
